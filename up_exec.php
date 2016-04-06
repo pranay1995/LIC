@@ -27,7 +27,7 @@ if($data[0] > 0) {
 	
 	 }
 	  else{
-	  echo "<script type='text/javascript'>alert('NO SUCH POLICY NO');</script>" ;
+	  echo "<script type='text/javascript'>alert('Policy Number doesnot exist ');</script>" ;
 
 	  	}
  mysql_close($con);
