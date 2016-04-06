@@ -15,7 +15,7 @@ if($data[0] < 1) {
 	header("location: login.php");
 	}
 	else{
-    header("location: login.php");
+    header("location:login.php");
 	}	
- mysql_close($con);
+ mysql_close($con);    
     ?>
